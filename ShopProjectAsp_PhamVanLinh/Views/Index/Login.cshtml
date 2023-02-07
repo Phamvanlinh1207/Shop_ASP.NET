@@ -1,0 +1,67 @@
+﻿@model ShopProjectAsp_PhamVanLinh.ViewModels.Input
+@*@model IEnumerable<ShopProjectAsp_PhamVanLinh.ViewModels.Input>*@
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+                        <div class="breadcrumbs_area">
+                            <div class="row">
+                                    <div class="col-12">
+                                        <div class="breadcrumb_content">
+                                            <ul>
+                                                <li><a href="index.html">home</a></li>
+                                                <li><i class="fa fa-angle-right"></i></li>
+                                                <li>login</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!--breadcrumbs area end-->
+
+                       <!-- customer login start -->
+                        <div class="customer_login">
+                            <div class="row">
+                                       <!--login area start-->
+                                        <div class="col-md-8" style="margin-left:200px;margin-right:100px">
+                                            <div class="account_form">
+                                                <h2>login</h2>
+                                                <form asp-action="Login">
+                                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                                    <p>   
+                                                        <label>Email <span>*</span></label>
+                                                        <input asp-for="Email" type="text">
+                                                        <span asp-validation-for="Email" class="text-danger">@ViewBag.error</span>
+
+                                                     </p>
+                                                     <p>   
+                                                        <label>Passwords <span>*</span></label>
+                                                        <input asp-for="Password" type="password">
+                                                        <span asp-validation-for="Password" class="text-danger">@ViewBag.error</span>
+                                                     </p>   
+                                                    <div class="login_submit">
+                                                        <button><input type="submit" value="Login" /> </button>
+                                                        <label for="remember">
+                                                            <input id="remember" type="checkbox">
+                                                            Remember me
+                                                        </label>
+                                                        <a href="~/Index/Register">Register</a>
+                                                    </div>
+
+                                                </form>
+                                             </div>    
+                                        </div>
+                                        
+                                    </div>
+                        </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
+

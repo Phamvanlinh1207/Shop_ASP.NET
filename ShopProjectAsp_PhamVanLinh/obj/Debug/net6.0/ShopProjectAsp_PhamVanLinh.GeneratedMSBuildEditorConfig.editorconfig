@@ -1,0 +1,156 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ShopProjectAsp_PhamVanLinh
+build_property.RootNamespace = ShopProjectAsp_PhamVanLinh
+build_property.ProjectDir = E:\Hoc\ASP\ShopProjectAsp_PhamVanLinh\ShopProjectAsp_PhamVanLinh\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Hoc\ASP\ShopProjectAsp_PhamVanLinh\ShopProjectAsp_PhamVanLinh
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Index/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Index/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Index/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Index/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Index/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Index/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Order/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Order/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Shared/_LayoutHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Hoc/ASP/ShopProjectAsp_PhamVanLinh/ShopProjectAsp_PhamVanLinh/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-srw9ykxseq

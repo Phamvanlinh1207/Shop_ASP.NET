@@ -1,0 +1,79 @@
+﻿@model IEnumerable<ShopProjectAsp_PhamVanLinh.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<style>
+    .create{
+        text-align: right
+    }
+</style>
+
+<section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Table Category </h1>
+            <a asp-action="Create" class="btn btn-outline-secondary create">Create New</a>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Category</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-secondary">
+              <div class="card-header">
+                <h3 class="card-title">These are the categories currently in the store</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example2" class="table table-bordered table-hover">
+                  <thead>
+                  <tr>
+                    <th style="width:300px">Name User</th>
+                    <th >Email</th>
+                     <th >Address</th>
+
+                    <th style="width:250px">Action</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                                @foreach (var item in Model)
+                                {
+                          <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                               <td> @Html.DisplayFor(modelItem => item.Email)
+                           </td>
+                                   <td> @Html.DisplayFor(modelItem => item.Address)
+                               </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-warning">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id"  class="btn btn-outline-danger">Delete</a>
+                            </td>
+                          </tr>
+                                }
+                  </tfoot>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>

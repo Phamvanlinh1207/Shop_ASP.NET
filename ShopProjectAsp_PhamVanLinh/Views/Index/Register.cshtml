@@ -1,0 +1,90 @@
+﻿@model ShopProjectAsp_PhamVanLinh.Models.User
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+<div class="breadcrumbs_area">
+                            <div class="row">
+                                    <div class="col-12">
+                                        <div class="breadcrumb_content">
+                                            <ul>
+                                                <li><a href="index.html">home</a></li>
+                                                <li><i class="fa fa-angle-right"></i></li>
+                                                <li>login</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!--breadcrumbs area end-->
+
+                       <!-- customer login start -->
+                        <div class="customer_login">
+                            <div class="row">
+                                       <!--login area start-->
+                                       @* <div class="col-lg-6 col-md-6">
+                                            <div class="account_form">
+                                                <h2>login</h2>
+                                                <form action="#">
+                                                    <p>   
+                                                        <label>Username or email <span>*</span></label>
+                                                        <input type="text">
+                                                     </p>
+                                                     <p>   
+                                                        <label>Passwords <span>*</span></label>
+                                                        <input type="password">
+                                                     </p>   
+                                                    <div class="login_submit">
+                                                        <button type="submit">login</button>
+                                                        <label for="remember">
+                                                            <input id="remember" type="checkbox">
+                                                            Remember me
+                                                        </label>
+                                                        <a href="#">Lost your password?</a>
+                                                    </div>
+
+                                                </form>
+                                             </div>    
+                                        </div>*@
+                                        <!--login area start-->
+
+                                        <!--register area start-->
+                                        <div class="col-md-8" style="margin-left:200px;margin-right:100px">
+                                            <div class="account_form register">
+                                                <h2>Register</h2>
+                                                <form  asp-action="Register" >
+                                                    <p>   
+                                                        <label>Name <span>*</span></label>
+                                                        <input asp-for="Name"  type="Text">
+                                                        <span asp-validation-for="Name" class="text-danger"></span>
+
+                                                     </p>
+                                                    
+                                                     <p>   
+                                                        <label>Email <span>*</span></label>
+                                                        <input asp-for="Email"  type="email">
+                                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                                       <span asp-validation-for="Email" class="text-danger">@ViewBag.error</span>
+
+                                                     </p>
+                                                     <p>   
+                                                        <label>Passwords <span>*</span></label>
+                                                        <input asp-for="Password" type="password">
+                                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                                     </p>
+                                                     <p>   
+                                                        <label>Address</label>
+                                                        <textarea asp-for="Address" type="text"></textarea>
+                                                     </p>
+                                                    <div class="login_submit">
+                                                        <button type="submit">Register</button>
+                                                    </div>
+                                                </form>
+                                            </div>    
+                                        </div>
+                                        <!--register area end-->
+                                    </div>
+                        </div>
+
