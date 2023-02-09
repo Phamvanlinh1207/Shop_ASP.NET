@@ -1,5 +1,4 @@
 ﻿@model ShopProjectAsp_PhamVanLinh.ViewModels.Input
-@*@model IEnumerable<ShopProjectAsp_PhamVanLinh.ViewModels.Input>*@
 
 @{
     ViewData["Title"] = "Login";
@@ -29,7 +28,7 @@
                                         <div class="col-md-8" style="margin-left:200px;margin-right:100px">
                                             <div class="account_form">
                                                 <h2>login</h2>
-                                                <form asp-action="Login">
+                                                <form asp-action="Login" method="POST">
                                                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                                                     <p>   

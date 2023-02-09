@@ -2026,7 +2026,7 @@
           }
         }
       },
-      "PagedList/1.15.0": {
+      "PagedList/1.17.0": {
         "type": "package",
         "compile": {
           "lib/net40/PagedList.dll": {
@@ -2039,10 +2039,10 @@
           }
         }
       },
-      "PagedList.Mvc/4.0.0": {
+      "PagedList.Mvc/4.5.0": {
         "type": "package",
         "dependencies": {
-          "PagedList": "1.15.0"
+          "PagedList": "1.17.0"
         },
         "compile": {
           "lib/net40/PagedList.Mvc.dll": {
@@ -6457,30 +6457,30 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "PagedList/1.15.0": {
-      "sha512": "9dsyyfnjBvW2lECdTzMZCqQ/+DRtCEmXPHllOC+ZEg4EMp7ADkpMgOYIUkM4pqvtAQw/rcRvjpCrwjIz6zDS/Q==",
+    "PagedList/1.17.0": {
+      "sha512": "Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
       "type": "package",
-      "path": "pagedlist/1.15.0",
+      "path": "pagedlist/1.17.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/PagedList.dll",
         "lib/net40/PagedList.xml",
-        "pagedlist.1.15.0.nupkg.sha512",
+        "pagedlist.1.17.0.nupkg.sha512",
         "pagedlist.nuspec"
       ]
     },
-    "PagedList.Mvc/4.0.0": {
-      "sha512": "7iIj4EBtcE0b6o5cMfxtU+60GjJZsxlT1MLwcv1WFI7SLkugKMfiVYnVshEQ+YWGgJA6TTQJElRSGlpDIe/Xyg==",
+    "PagedList.Mvc/4.5.0": {
+      "sha512": "D0M4qW2g4a9cwG8ozIKUnJheCrm5GpFTceqUl63AXWaAVnTgk+TysZYUOGMsBRuzid8aF+/E8b0bXM6+90jiEw==",
       "type": "package",
-      "path": "pagedlist.mvc/4.0.0",
+      "path": "pagedlist.mvc/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Content/Content/PagedList.css",
         "lib/net40/PagedList.Mvc.XML",
         "lib/net40/PagedList.Mvc.dll",
-        "pagedlist.mvc.4.0.0.nupkg.sha512",
+        "pagedlist.mvc.4.5.0.nupkg.sha512",
         "pagedlist.mvc.nuspec"
       ]
     },
@@ -10709,7 +10709,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.13",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.11",
       "Microsoft.Web.RedisSessionStateProvider >= 4.0.1",
-      "PagedList.Mvc >= 4.0.0",
+      "PagedList.Mvc >= 4.5.0",
       "System.linq.dynamic.core >= 1.2.24"
     ]
   },
@@ -10784,7 +10784,7 @@
           },
           "PagedList.Mvc": {
             "target": "Package",
-            "version": "[4.0.0, )"
+            "version": "[4.5.0, )"
           },
           "System.linq.dynamic.core": {
             "target": "Package",
@@ -10839,7 +10839,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'PagedList 1.15.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'PagedList 1.17.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "PagedList",
       "targetGraphs": [
         "net6.0"
@@ -10849,7 +10849,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'PagedList.Mvc 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'PagedList.Mvc 4.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "PagedList.Mvc",
       "targetGraphs": [
         "net6.0"

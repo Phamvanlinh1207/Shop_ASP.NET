@@ -17,7 +17,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
     <PackageReference Include="Microsoft.Web.RedisSessionStateProvider" Version="4.0.1" />
-    <PackageReference Include="PagedList.Mvc" Version="4.0.0" />
+    <PackageReference Include="PagedList.Mvc" Version="4.5.0" />
     <PackageReference Include="System.linq.dynamic.core" Version="1.2.24" />
   </ItemGroup>
 

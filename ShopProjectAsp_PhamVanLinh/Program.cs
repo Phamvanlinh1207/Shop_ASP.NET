@@ -18,6 +18,7 @@ builder.Services.AddSession(options => {                    // Đăng ký dịch
     options.Cookie.IsEssential = true;
     options.Cookie.HttpOnly = true;
 });
+builder.Services.AddSession();
 
 
 var app = builder.Build();

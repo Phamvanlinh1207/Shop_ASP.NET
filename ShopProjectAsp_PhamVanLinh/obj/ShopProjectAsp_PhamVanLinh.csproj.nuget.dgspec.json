@@ -72,7 +72,7 @@
             },
             "PagedList.Mvc": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.5.0, )"
             },
             "System.linq.dynamic.core": {
               "target": "Package",

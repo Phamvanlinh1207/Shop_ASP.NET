@@ -33,6 +33,13 @@ namespace ShopProjectAsp_PhamVanLinh.Controllers
             return View(p);
 
         }
+        public async Task<IActionResult> CategoryList()
+        {
+            var c = await _context.categories.ToListAsync();
+            return View(c);
+
+        }
+
         public IActionResult ProductList(string searchName, string sortOrder,string currentFilter, int? page)
         {
             ViewBag.CurrentSort = sortOrder;
@@ -54,7 +61,7 @@ namespace ShopProjectAsp_PhamVanLinh.Controllers
 
             //var links = from l in _context.products // lấy toàn bộ liên kết
             //           select l;
-            var links = _context.products.AsQueryable();
+            var links = _context.products.AsQueryable() ;
 
             // 3. Thứ tự sắp xếp theo thuộc tính LinkName
             switch (sortOrder)
@@ -78,12 +85,14 @@ namespace ShopProjectAsp_PhamVanLinh.Controllers
                     break;
             }
 
-            var products = _context.products.ToList();
+
             if (!String.IsNullOrEmpty(searchName))
             {
                 links = links.Where(s => s.Name.Contains(searchName));
                 //products = products.Where(s => s.Name.Contains(searchName)); 
             }
+            if (page == null) page = 1;
+
             int pageSize = 9;
             int pageNumber = (page ?? 1);
             return View(links.ToPagedList(pageNumber, pageSize));
@@ -323,10 +332,9 @@ namespace ShopProjectAsp_PhamVanLinh.Controllers
             return View();
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(Input login)
+        public ActionResult Login(Input login)
             {
             if (ModelState.IsValid)
             {
@@ -335,13 +343,14 @@ namespace ShopProjectAsp_PhamVanLinh.Controllers
                 {
                     if (result.Password == login.Password)
                     {
-                        return View("Index" , "Home");
+                        return Redirect("~/Home/Index");
                     }
                     ViewBag.error = "Incorrect password";
                 }
-                ViewBag.error = "Incorrect email";
+                ViewBag.error = "Incorrect email and password";
             }
-            return View("Login");
+            return View();
         }
+
     }
 }

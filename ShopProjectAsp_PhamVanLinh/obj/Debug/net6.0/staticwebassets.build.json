@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zFsjuDSTX1inqi1NFPtjgHYN4DMit0O7YPe912783gg=",
+  "Hash": "PuTrHSXWIEk0/LbIjbyVgAvxkGPiI5zcCVEdY4xrItk=",
   "Source": "ShopProjectAsp_PhamVanLinh",
   "BasePath": "_content/ShopProjectAsp_PhamVanLinh",
   "Mode": "Default",
@@ -8058,6 +8058,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\3.jpg",
+      "SourceId": "ShopProjectAsp_PhamVanLinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\",
+      "BasePath": "_content/ShopProjectAsp_PhamVanLinh",
+      "RelativePath": "images/3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3.jpg"
+    },
+    {
       "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\327612286_750303683272216_7365218441753941278_n.jpg",
       "SourceId": "ShopProjectAsp_PhamVanLinh",
       "SourceType": "Discovered",
@@ -8073,6 +8090,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\327612286_750303683272216_7365218441753941278_n.jpg"
+    },
+    {
+      "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\5.jpg",
+      "SourceId": "ShopProjectAsp_PhamVanLinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\",
+      "BasePath": "_content/ShopProjectAsp_PhamVanLinh",
+      "RelativePath": "images/5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5.jpg"
     },
     {
       "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\ass.jpg",
@@ -8124,6 +8158,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\images.jpg"
+    },
+    {
+      "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\Le-Thi-Thom-TopCV.vn-080223.13852.pdf",
+      "SourceId": "ShopProjectAsp_PhamVanLinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\",
+      "BasePath": "_content/ShopProjectAsp_PhamVanLinh",
+      "RelativePath": "images/Le-Thi-Thom-TopCV.vn-080223.13852.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Le-Thi-Thom-TopCV.vn-080223.13852.pdf"
+    },
+    {
+      "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\z3998975876536_670f33169e63f633f3c172bae7b87e5b.jpg",
+      "SourceId": "ShopProjectAsp_PhamVanLinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\",
+      "BasePath": "_content/ShopProjectAsp_PhamVanLinh",
+      "RelativePath": "images/z3998975876536_670f33169e63f633f3c172bae7b87e5b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\z3998975876536_670f33169e63f633f3c172bae7b87e5b.jpg"
     },
     {
       "Identity": "E:\\Hoc\\ASP\\ShopProjectAsp_PhamVanLinh\\ShopProjectAsp_PhamVanLinh\\wwwroot\\images\\z4030924215903_b0aff9aede9b2b4286f849de42b23d59.jpg",
