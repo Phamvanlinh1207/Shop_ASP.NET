@@ -1,6 +1,6 @@
-﻿@model PagedList.IPagedList<ShopProjectAsp_PhamVanLinh.Models.Product>
+﻿@model IPagedList<ShopProjectAsp_PhamVanLinh.Models.Product>
 @using PagedList.Mvc;
-<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@using PagedList;
 
 @{
     ViewData["Title"] = "ProductList";
@@ -347,7 +347,6 @@
                                                         <option value="1">9</option>
                                                         <option value="2">10</option>
                                                         <option value="3">11</option>
-                                                    </select>
                                                     <span>Products by page</span>
                                                 </form>
                                             </div>
@@ -359,10 +358,14 @@
                                                     <li><a href="#">2</a></li>
                                                     <li>»</li>
                                                 </ul>
-                                                @*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
-
-                    @Html.PagedListPager(Model, page => Url.Action("Index", 
-                                                new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))*@
+                                                <!-- Thêm phân trang vào -->
+                                            Pages: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+                                            @*@Html.PagedListPager(Model, page => Url.Action("ProductList",*@
+                                            new { page }))
+                                            <form asp-action="ProductList">
+            <input type="submit" value="Go ->"/> page <input type="number" max="@Model.PageCount" min="1" value="@Model.PageNumber name="page"/>
+        </form>
+                                            <!-- Kết thúc -->
                                             </div>
                                         </div>
                                         <!--pagination style end--> 
